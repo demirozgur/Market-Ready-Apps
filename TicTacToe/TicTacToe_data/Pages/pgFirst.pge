@@ -1,0 +1,300 @@
+<PAGE ID="FD613802-B162-4AAC-AEFE-B97A520DE03C" Name="pgFirst" Navigation="0" Left="0" Top="0" Width="320" Height="480" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" SolidBorder="0" Type="0" BgColor="3878179" BgTransparent="0" PicID="00000000-0000-0000-0000-100000000001" Position="3" SizeMode="32" FocusObj="00000000-0000-0000-0000-100000000001" ShowStatusBar="0" ParentTabBarID="00000000-0000-0000-0000-100000000001" EnableTabBar="0" LockOrientation="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" IsSplashScreen="0">
+	<OBJECTS>
+		<TIMER>
+			<Properties ID="97BB47E3-F3EA-4BE1-9C71-66E363D84735" Name="Timer1" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="98" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer1_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="509E7076-D954-468A-AC24-F36B767B7C63" Name="Timer2" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="100" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer2_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="C71EC117-3846-4C43-B018-409091467E5A" Name="Timer3" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="102" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer3_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="65E65B18-C468-4C1E-AF5C-82A6838F67FF" Name="Timer4" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="104" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer4_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="46E29B74-F1DC-4A14-9930-E248805760B9" Name="Timer5" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="106" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer5_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="D8BAAB93-97DA-4C46-A549-285ADBA9F545" Name="Timer6" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="108" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer6_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="A02D638F-DB30-4291-8E31-E069243E042E" Name="Timer7" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="110" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer7_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="D77C7773-A41D-4D50-B244-C3686CD08D2F" Name="Timer8" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="112" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer8_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<TIMER>
+			<Properties ID="49606813-3D98-4520-9455-2A403FC66F2C" Name="Timer9" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="114" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="100" Active="0" Offset="100" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer9_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<CONTAINER>
+			<Properties ID="103C763E-6059-469F-B0E1-52B4407BEAF8" Name="Cnt" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="116" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="127" Width="239" Height="224" dpLeft="41" dpTop="127" dpWidth="239" dpHeight="224" LeftPerc="0.128124997019768" TopPerc="0.264583319425583" WidthPerc="0.746874988079071" HeightPerc="0.466666668653488" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="1" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific BorderColor="3223601" BorderWidth="0" BackgroundColor="15725551" Transparent="1" AutoSize="0">
+					<Layout Type="0" Ort="0" Align="0" HrtGap="5" VrtGap="5" />
+				</TypeSpecific>
+			</Properties>
+		</CONTAINER>
+		<PICTURE>
+			<Properties ID="E130030C-8130-48CB-9F0E-D11B38D87757" Name="table9" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="118" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="152" Width="77" Height="72" dpLeft="161" dpTop="152" dpWidth="77" dpHeight="72" LeftPerc="0.677799999713898" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="63743ACE-14EA-4C84-AC5A-8DC03DADE0B1" Name="table8" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="120" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0.338899999856949" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="B216BF18-7661-49FA-B9B6-503B2840222C" Name="table7" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="122" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="16F9A6EE-E297-4474-89BC-2F18E8B49ACD" Name="table6" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="124" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="34" LeftPerc="0.677799999713898" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="78756E63-25E1-4BD7-8688-CFE178B06155" Name="table5" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="126" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="34" LeftPerc="0.338899999856949" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="2216DDE1-AC57-42F0-B533-CBCCBCA23ED8" Name="table4" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="128" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="34" LeftPerc="0" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="14C37FDD-F71E-43CF-8ECA-5A4B08167AD3" Name="table3" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="130" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="35" LeftPerc="0.677799999713898" TopPerc="0" WidthPerc="0.322175741195679" HeightPerc="0.321428567171097" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="26DFF499-A279-441D-A609-BF0373F4FBCC" Name="table2" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="132" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="72" LeftPerc="0.338899999856949" TopPerc="0" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="9887E28C-5FC3-408D-8757-33611BFBA59A" Name="table1" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="134" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="35" LeftPerc="0" TopPerc="0" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="b" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="43615271-E3AE-4650-9173-E886E460D996" Name="xImage1" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="136" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="0" Top="0" Width="77" Height="72" dpLeft="0" dpTop="61" dpWidth="77" dpHeight="72" LeftPerc="0" TopPerc="0" WidthPerc="0.322175741195679" HeightPerc="0.321428567171097" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="x" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="951153C4-9339-499F-B37A-459F2138E86F" Name="xImage3" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="138" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="162" Top="0" Width="77" Height="72" dpLeft="162" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0.677824258804321" TopPerc="0" WidthPerc="0.322175741195679" HeightPerc="0.321428567171097" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="x" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="D7C1AD95-6426-491A-AD20-E401EBA91F21" Name="xImage5" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="140" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="81" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="70" LeftPerc="0.338899999856949" TopPerc="0.339300006628036" WidthPerc="0.322175741195679" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="x" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="6D4EC177-3CE5-4B25-9BA7-0A0EAC7568B6" Name="xImage7" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="142" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="0" Top="152" Width="77" Height="72" dpLeft="0" dpTop="152" dpWidth="77" dpHeight="72" LeftPerc="0" TopPerc="0.678571403026581" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="x" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="29C9B8E2-AD53-42BE-923A-4AFF805D87A2" Name="xImage9" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="144" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="162" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0.677799999713898" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="x" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="C2609F0C-CD70-4A29-8147-E2519EB28AA4" Name="oImage2" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="146" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="81" Top="0" Width="77" Height="72" dpLeft="81" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0.338912129402161" TopPerc="0" WidthPerc="0.322175741195679" HeightPerc="0.321428567171097" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="o" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="327F5F17-87CE-482A-87F5-F38DEFCB2AD5" Name="oImage4" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="148" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="0" Top="76" Width="77" Height="72" dpLeft="0" dpTop="76" dpWidth="77" dpHeight="72" LeftPerc="0" TopPerc="0.33928570151329" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="o" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="81FBF419-FAA0-4329-A148-FE31BBBEE31C" Name="oImage6" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="150" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="162" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="58" dpHeight="35" LeftPerc="0.677799999713898" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="o" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="FD7BCAA2-59BA-463D-979C-B88B3C25F55D" Name="oImage8" Parent="103C763E-6059-469F-B0E1-52B4407BEAF8" ParentMode="-1" Prio="152" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="81" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0.338899999856949" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="o" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<PICTURE>
+			<Properties ID="E5D00F99-7348-4A4B-BDCE-819AAD898A5F" Name="logo" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="154" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="0" Width="244" Height="67" dpLeft="41" dpTop="0" dpWidth="244" dpHeight="67" LeftPerc="0.128124997019768" TopPerc="0" WidthPerc="0.762499988079071" HeightPerc="0.139583334326744" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="logo" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<TIMER>
+			<Properties ID="D14C5019-A052-4589-BBBA-65FD9673AB64" Name="Timer10" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="156" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="10" Top="240" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="3000" Active="0" Offset="3000" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgFirst_Timer10_OnTimer(e);" />
+			</Events>
+		</TIMER>
+	</OBJECTS>
+	<EVENTS>
+		<OnShow script="pgFirst_Self_OnShow(e);" />
+		<OnKeyPress script="pgFirst_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PAGE>

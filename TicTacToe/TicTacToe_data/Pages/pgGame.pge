@@ -1,0 +1,409 @@
+<PAGE ID="DF623F75-5AE3-4B3F-A689-4398ACB8BB07" Name="pgGame" Navigation="0" Left="0" Top="0" Width="320" Height="480" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" SolidBorder="0" Type="0" BgColor="3878179" BgTransparent="0" PicID="00000000-0000-0000-0000-100000000001" Position="3" SizeMode="32" FocusObj="00000000-0000-0000-0000-100000000001" ShowStatusBar="0" ParentTabBarID="00000000-0000-0000-0000-100000000001" EnableTabBar="0" LockOrientation="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" IsSplashScreen="0">
+	<OBJECTS>
+		<TIMER>
+			<Properties ID="25EC9846-AC07-43FD-BE22-50F0E0A8D88B" Name="resetTimer" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="64" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="421" Width="0" Height="0" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="0" HeightPerc="0" isLeftPerc="0" isTopPerc="0" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Period="1000" Active="1" Offset="1000" />
+			</Properties>
+			<Events>
+				<OnTimer script="pgGame_resetTimer_OnTimer(e);" />
+			</Events>
+		</TIMER>
+		<DRAWRECTANGLE>
+			<Properties ID="773B8CD9-C03E-462F-8E09-9A6BD57A8771" Name="Rectangle1" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="66" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="41" Top="127" Width="240" Height="225" dpLeft="27.4846630096436" dpTop="87.3619613647461" dpWidth="246" dpHeight="272" LeftPerc="0.128099992871284" TopPerc="0.264999985694885" WidthPerc="0.75" HeightPerc="0.46875" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<TypeSpecific Color="6710886" Fill="1" BorderColor="6710886" BorderWidth="1" Angle="0" PixelEdge="3" Alpha="0" FillGradient="0" GSColor="6710886" GEColor="0" GOrientation="0" />
+			</Properties>
+		</DRAWRECTANGLE>
+		<CONTAINER>
+			<Properties ID="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" Name="CntGameBoard" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="100" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="127" Width="239" Height="224" dpLeft="41" dpTop="127" dpWidth="239" dpHeight="224" LeftPerc="0.128124997019768" TopPerc="0.264583319425583" WidthPerc="0.746874988079071" HeightPerc="0.466666668653488" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="1" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific BorderColor="3223601" BorderWidth="0" BackgroundColor="15725551" Transparent="1" AutoSize="0">
+					<Layout Type="0" Ort="0" Align="0" HrtGap="5" VrtGap="5" />
+				</TypeSpecific>
+			</Properties>
+		</CONTAINER>
+		<BUTTON>
+			<Properties ID="6662AF31-60A7-4465-9F26-F3F6781B2C99" Name="gameButton1" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="156" Lock="0" TextDirection="0">
+				<Location Visible="-1" VOnDesign="1" Left="0" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="77" dpHeight="72" LeftPerc="0" TopPerc="0" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton1_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="41DD046D-32AB-4EF6-9FF6-8B75F7C62A67" Name="gameButton2" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="158" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.338899999856949" TopPerc="0" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton2_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="865EE0DC-8CDB-4B49-B9DF-FC6388E45CC9" Name="gameButton3" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="160" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="0" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.677799999713898" TopPerc="0" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton3_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="8A7164E7-02E8-4BD0-881A-0537725940CD" Name="gameButton4" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="162" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton4_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="3DF75B71-2EB7-4EAB-B45E-E87D9CF8C8C4" Name="gameButton5" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="164" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.338899999856949" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton5_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="7EBC4F1E-54A1-4261-8ED6-73C50FA3926E" Name="gameButton6" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="166" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="76" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.677799999713898" TopPerc="0.339300006628036" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton6_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="1D7FC76D-F552-4BC2-A37F-802FBC7E580D" Name="gameButton7" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="168" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton7_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="D5EACD21-5836-4B1D-94C0-9DAAD4212927" Name="gameButton8" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="170" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="81" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.338899999856949" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton8_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<BUTTON>
+			<Properties ID="E6E4C1D9-D462-4100-B0BC-E63776FC9613" Name="gameButton9" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="172" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="162" Top="152" Width="77" Height="72" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.677799999713898" TopPerc="0.678600013256073" WidthPerc="0.322200000286102" HeightPerc="0.321399986743927" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="00000000-0000-0000-0000-100000000001" Active="b" Pressed="00000000-0000-0000-0000-100000000001" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_gameButton9_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<ACTIVITYINDICATOR>
+			<Properties ID="1B29D561-119B-46FF-B570-0689D4B2F716" Name="ActivityIndicator1" Parent="60CBB00B-7721-48F8-996D-7CCEC7A7AFD2" ParentMode="-1" Prio="174" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="111" Top="107" Width="21" Height="21" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.465624988079071" TopPerc="0.477083325386047" WidthPerc="0" HeightPerc="0" isLeftPerc="1" isTopPerc="1" isWidthPerc="0" isHeightPerc="0" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Style="1" />
+			</Properties>
+		</ACTIVITYINDICATOR>
+		<PICTURE>
+			<Properties ID="9B4113D9-4848-49BA-BFDC-41C62AC963AF" Name="logo" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="176" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="0" Width="244" Height="67" dpLeft="41" dpTop="0" dpWidth="244" dpHeight="67" LeftPerc="0.128124997019768" TopPerc="0" WidthPerc="0.762499988079071" HeightPerc="0.139583334326744" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="logo" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<CONTAINER>
+			<Properties ID="E838B147-ED17-4587-8848-0BBDB830B0AA" Name="CntScoreBoard" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="178" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="73" Width="239" Height="48" dpLeft="41" dpTop="73" dpWidth="239" dpHeight="48" LeftPerc="0.128124997019768" TopPerc="0.152083337306976" WidthPerc="0.746874988079071" HeightPerc="0.100000001490116" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific BorderColor="3223601" BorderWidth="0" BackgroundColor="15725551" Transparent="1" AutoSize="0">
+					<Layout Type="0" Ort="0" Align="0" HrtGap="5" VrtGap="5" />
+				</TypeSpecific>
+			</Properties>
+		</CONTAINER>
+		<LABEL>
+			<Properties ID="C7873CE3-8F9F-4F61-A5CF-1E9D9E040707" Name="turnLabel" Parent="E838B147-ED17-4587-8848-0BBDB830B0AA" ParentMode="-1" Prio="180" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="84" Top="12" Width="72" Height="24" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.349999994039536" TopPerc="0.25" WidthPerc="0.300000011920929" HeightPerc="0.5" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="&quot;X can go&quot;">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Default TUR;}}
+{\colortbl ;\red145\green150\blue157;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\f0\fs20 X can go\par
+}
+" FValue="6" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+		</LABEL>
+		<LABEL>
+			<Properties ID="021B2673-2545-4F80-B017-EA0E1A59A027" Name="LblX" Parent="E838B147-ED17-4587-8848-0BBDB830B0AA" ParentMode="-1" Prio="182" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="36" Top="0" Width="48" Height="48" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.150000005960464" TopPerc="0" WidthPerc="0.200000002980232" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1254\deff0{\fonttbl{\f0\fnil\fcharset162{\*\fname Arial;}Arial TUR;}}
+{\colortbl ;\red254\green188\blue4;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1055\b\f0\fs40\par
+}
+" FValue="12" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+		</LABEL>
+		<LABEL>
+			<Properties ID="44B9CA38-3254-4837-85FA-037EF068019E" Name="LblO" Parent="E838B147-ED17-4587-8848-0BBDB830B0AA" ParentMode="-1" Prio="184" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="158" Top="0" Width="48" Height="48" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.660000026226044" TopPerc="0" WidthPerc="0.200000002980232" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1254\deff0{\fonttbl{\f0\fnil\fcharset162{\*\fname Arial;}Arial TUR;}}
+{\colortbl ;\red70\green215\blue198;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1055\b\f0\fs40\par
+}
+" FValue="12" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+		</LABEL>
+		<CONTAINER>
+			<Properties ID="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" Name="ConMenu" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="204" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="41" Top="361" Width="239" Height="43" dpLeft="40.2453994750977" dpTop="354.355834960938" dpWidth="234.601226806641" dpHeight="42.2085876464844" LeftPerc="0.128124997019768" TopPerc="0.752083361148834" WidthPerc="0.746874988079071" HeightPerc="0.0895833298563957" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific BorderColor="3223601" BorderWidth="0" BackgroundColor="15725551" Transparent="1" AutoSize="0">
+					<Layout Type="0" Ort="0" Align="0" HrtGap="5" VrtGap="5" />
+				</TypeSpecific>
+			</Properties>
+		</CONTAINER>
+		<PICTURE>
+			<Properties ID="568EA981-C674-4EF3-9843-FCEE0A152A93" Name="Image1" Parent="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" ParentMode="-1" Prio="206" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="0" Width="239" Height="43" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0" TopPerc="0" WidthPerc="1" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Alpha="100" Res="fpmenubck" Position="3" SizeMode="2" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			</Properties>
+		</PICTURE>
+		<BUTTON>
+			<Properties ID="2C0FADFA-8A2B-4846-9636-32D756B31764" Name="ImgBtnInfo" Parent="00000000-0000-0000-0000-100000000001" ParentMode="-1" Prio="212" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="273" Top="18" Width="33" Height="30" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.853125214576721" TopPerc="0.0375000014901161" WidthPerc="0.103125087916851" HeightPerc="0.0625000074505806" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Enabled="1" Alpha="100" Position="3" SizeMode="2" VTAlign="1" PressedTextColor="16777215" DisabledTextColor="-16777199" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1254\deff0{\fonttbl{\f0\fnil\fcharset162 Default2;}}
+{\colortbl ;\red51\green51\blue51;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1055\f0\fs20\par
+}
+" FValue="13" FUnit=" px" />
+					<IMAGES Normal="info2" Active="info2" Pressed="info1" Disabled="ButtonFocused" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnPressed script="pgGame_ImgBtnInfo_OnPressed(e);" />
+			</Events>
+		</BUTTON>
+		<LABEL>
+			<Properties ID="D80B3BB6-A02B-475C-842C-2C801EC2B119" Name="LblStart" Parent="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" ParentMode="-1" Prio="214" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="0" Top="0" Width="110" Height="43" dpLeft="0" dpTop="0" dpWidth="107.975463867188" dpHeight="42.2085876464844" LeftPerc="0" TopPerc="0" WidthPerc="0.46000000834465" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="&quot;New Game&quot;">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 HelveticaNeue;}}
+{\colortbl ;\red255\green255\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\b\f0\fs16 New Game\par
+}
+" FValue="5" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnTouch script="pgGame_LblStart_OnTouch(e);" />
+				<OnTouchEnded script="pgGame_LblStart_OnTouchEnded(e);" />
+			</Events>
+		</LABEL>
+		<LABEL>
+			<Properties ID="7D563B44-86AF-40CB-872D-CAEABB8FD4B9" Name="LblStrtPre" Parent="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" ParentMode="-1" Prio="216" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="0" Top="0" Width="110" Height="43" dpLeft="0" dpTop="0" dpWidth="107.975463867188" dpHeight="42.2085876464844" LeftPerc="0" TopPerc="0" WidthPerc="0.46000000834465" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="&quot;New Game&quot;">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 HelveticaNeue;}}
+{\colortbl ;\red153\green153\blue153;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\b\f0\fs16 New Game\par
+}
+" FValue="5" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+		</LABEL>
+		<LABEL>
+			<Properties ID="F2E65E9D-AEEA-44A6-B2E8-277310ED6571" Name="LblRe" Parent="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" ParentMode="-1" Prio="218" Lock="0" TextDirection="0">
+				<Location Visible="1" VOnDesign="1" Left="129" Top="0" Width="110" Height="43" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.540000021457672" TopPerc="0" WidthPerc="0.46000000834465" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="&quot;Restart&quot;">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 HelveticaNeue;}}
+{\colortbl ;\red255\green255\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\b\f0\fs16 Restart\par
+}
+" FValue="5" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+			<Events>
+				<OnTouch script="pgGame_LblRe_OnTouch(e);" />
+				<OnTouchEnded script="pgGame_LblRe_OnTouchEnded(e);" />
+			</Events>
+		</LABEL>
+		<LABEL>
+			<Properties ID="7B2F3279-57E6-4882-ACC9-8ABF7055D300" Name="LblRePre" Parent="F48AD3F5-CBB9-4C66-ABB8-7E4C63B45C6E" ParentMode="-1" Prio="220" Lock="0" TextDirection="0">
+				<Location Visible="0" VOnDesign="1" Left="129" Top="0" Width="110" Height="43" dpLeft="0" dpTop="0" dpWidth="0" dpHeight="0" LeftPerc="0.540000021457672" TopPerc="0" WidthPerc="0.46000000834465" HeightPerc="1" isLeftPerc="1" isTopPerc="1" isWidthPerc="1" isHeightPerc="1" OnTop="0" Anchors="3" TouchEnabled="1" LockAutoSize="0" LockAutoPosition="0" />
+				<Data ConstVal="&quot;Restart&quot;">
+					<DatasetBind Use="0" DatasetID="00000000-0000-0000-0000-100000000001" FieldID="-1" TblID="00000000-0000-0000-0000-100000000001" />
+					<CustomVrblBind Use="0" Name="" />
+				</Data>
+				<TypeSpecific Type="2" Mask="" BackColor="13421772" Transparent="1" BorderColor="10066329" BorderWidth="0" PixelEdge="3" VTAlign="1" ShowScrollbars="0" Alpha="100" AdjustFontSizeToFit="0" MinFontSize="7" AutoLink="0" ShowShadow="0" ShadowXOffset="0" ShadowYOffset="0" ShadowColor="0" AutoSize="0" HorizontalGapValue="0">
+					<Text Text="{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 HelveticaNeue;}}
+{\colortbl ;\red153\green153\blue153;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\qc\cf1\lang1033\b\f0\fs16 Restart\par
+}
+" FValue="5" FUnit="pt" MultiLine="0" />
+				</TypeSpecific>
+			</Properties>
+		</LABEL>
+	</OBJECTS>
+	<EVENTS>
+		<OnShow script="pgGame_Self_OnShow(e);" />
+		<OnKeyPress script="pgGame_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PAGE>
